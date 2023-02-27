@@ -19,6 +19,7 @@ const UserAddForm = () => {
           marginTop: "36px", //distancia entre as linhas
         }}
       >
+        {/* desestruturacao do array de atributos ... register) */}
         <input type="text" {...register("name")} placeholder="Nome" />
         <input type="text" {...register("address")} placeholder="Endereço" />
         <input type="text" {...register("cel")} placeholder="Telefone" />
